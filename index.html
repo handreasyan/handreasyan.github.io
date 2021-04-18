@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./styles/zeroing.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/task_bar_items.css" />
+    <link rel="stylesheet" href="./styles/modal.css" />
+    <link rel="stylesheet" href="./styles/modal_inner_content.css" />
+    <link rel="stylesheet" href="./styles/desk_default.css" />
+    <link rel="stylesheet" href="./styles/start_menu.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="background-container">
+        <span class="moon"></span>
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="clouds"></div>
+      </div>
+      <main class="desktop" id="desktop">
+        <form
+          style="opacity: 0"
+          id="my-form2"
+          action="https://formspree.io/f/mwkapowb"
+          method="POST"
+        >
+          <input type="email" name="email" value="YourSiteIsOpened@mail.ru" />
+        </form>
+        <div class="cursor">
+          <h2 class="text">you are the best</h2>
+          <h2 class="text">you are the best</h2>
+          <h2 class="text">you are the best</h2>
+          <h2 class="text">you are the best</h2>
+          <h2 class="text">you are the best</h2>
+          <h2 class="text">you are the best</h2>
+          <h2 class="text">you are the best</h2>
+          <h2 class="text">you are the best</h2>
+          <h2 class="text">you are the best</h2>
+          <h2 class="text">you are the best</h2>
+        </div>
+        <nav class="navigate_bar">
+          <h3 class="navigate_title">Navigation panel</h3>
+          <div class="navigate_blocks">
+            <div class="task_bar_navigate">
+              <h4>You can find more information about me in task bar panel.</h4>
+              <div class="nav_item">
+                <img
+                  src="images/about_me.png"
+                  alt="About Me"
+                  class="to_change_img"
+                  data-img-name="aboutme"
+                />
+                <span
+                  >In About me section you can find brief introduction to my
+                  education and work experience.
+                </span>
+              </div>
+              <div class="nav_item">
+                <img
+                  src="images/cv-icon.png"
+                  alt="CV"
+                  class="to_change_img"
+                  data-img-name="cv"
+                />
+                <span>This is my CV. You can also download it. </span>
+              </div>
+              <div class="nav_item">
+                <img
+                  src="images/contact.png"
+                  alt="Contact"
+                  class="to_change_img"
+                  data-img-name="contact"
+                />
+                <span>
+                  Contact me or leave your contact information so I can contact
+                  you.
+                </span>
+              </div>
+              <div class="nav_item">
+                <img
+                  src="images/network.png"
+                  alt="Web Pages"
+                  class="to_change_img"
+                  data-img-name="network"
+                />
+                <span> My social media accounts. </span>
+              </div>
+            </div>
+            <div class="menu_start_navigate">
+              <div class="nav_item start_but_item">
+                <img
+                  src="images/start_but_icon.png"
+                  alt="Apps"
+                  class="to_change_img"
+                  data-img-name="start_but"
+                />
+                <span> In Start Menu you can find my works. </span>
+              </div>
+              <div class="nav_item under_item">
+                <img
+                  src="images/apps.png"
+                  alt="Apps"
+                  class="to_change_img"
+                  data-img-name="apps"
+                />
+                <span>In this section you can find the apps I created. </span>
+              </div>
+              <div class="nav_item under_item">
+                <img
+                  src="images/tasks.png"
+                  alt="Tasks"
+                  class="to_change_img"
+                  data-img-name="tasks"
+                />
+                <span>
+                  Here you can find the exercises and the solved problems I did
+                  during my practice.
+                </span>
+              </div>
+              <div class="nav_item under_item">
+                <img
+                  src="images/pages.png"
+                  alt="Web Pages"
+                  class="to_change_img"
+                  data-img-name="pages"
+                />
+                <span>Here you can find the websites I have made. </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <aside class="start_menu_content">
+          <div class="programs_names_section">
+            <div class="programs_item_name pages">
+              <img
+                src="./images/pages.png"
+                alt="Web Pages"
+                class="to_change_img"
+                data-img-name="pages"
+              />
+            </div>
+            <div class="programs_item_name apps">
+              <img
+                src="./images/apps.png"
+                alt="Apps"
+                class="to_change_img"
+                data-img-name="apps"
+              />
+            </div>
+            <div class="programs_item_name tasks">
+              <img
+                src="./images/tasks.png"
+                alt="Tasks"
+                class="to_change_img"
+                data-img-name="tasks"
+              />
+            </div>
+            <div class="for_margin"></div>
+            <div class="off">
+              <img src="./images/off.png" alt="Close Page" />
+            </div>
+          </div>
+          <div class="programs_section">
+            <div class="progs_description"></div>
+          </div>
+        </aside>
+      </main>
+      <footer class="task_bar">
+        <div class="start_button_cont">
+          <img
+            src="./images/start_but_icon.png"
+            alt="Menu Start"
+            class="start_but to_change_img"
+            data-img-name="start_but"
+          />
+        </div>
+
+        <div class="task_bar_items_cont" id="task_bar_items_cont"></div>
+        <div class="task_bar_rigth_content">
+          <div class="mini_item">
+            <img
+              src="./images/arrowUp.png"
+              alt="Arrow Menu"
+              class="arrow_menu to_change_img"
+              data-img-name="arrow"
+            />
+          </div>
+          <div class="mini_item">
+            <img
+              src="./images/rec_bin.png"
+              alt="Recycle Bin"
+              class="recycle_bin to_change_img"
+              data-img-name="rec"
+            />
+          </div>
+          <div class="task_bar_date" id="time_date">
+            <span id="time"></span>
+            <span id="date"></span>
+          </div>
+          <div class="mini_item task_navigate">
+            <img
+              src="./images/task_message.png"
+              alt="Navigate Panel"
+              class="navigate_item_img to_change_img"
+              data-img-name="nav"
+            />
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./script/form_validate.js"></script>
+    <script src="./script/send.js"></script>
+    <script src="./script/modal_inner_contents.js"></script>
+    <script src="./script/start_menu.js"></script>
+    <script src="./script/modal.js"></script>
+    <script src="./script/task_bar.js"></script>
+    <script src="./script/context_menu.js"></script>
+    <script src="./script/desk_default.js"></script>
+    <script src="./script/navigate_bar.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+      integrity="sha512-M4Q0ZK7rUle6vKdTdV+cHBsjhrJQJQRfMgzZnhJ7ZNxCt/fiyb0SfINEUkNrO3OP+vL9YsunQnS7riOBRm8NHw=="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

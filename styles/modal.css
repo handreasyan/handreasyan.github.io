@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Philosopher&display=swap");
+
+.modal_window {
+  font-family: "Philosopher", sans-serif;
+  left: 0;
+  top: 100%;
+  opacity: 0;
+  max-height: 0;
+  width: 0;
+  transition: all 0.5s ease;
+  position: absolute;
+  z-index: 50;
+}
+.set_style {
+  border: 1px solid black;
+  width: 80%;
+  min-height: 300px;
+  max-height: 70%;
+  top: 100px;
+  left: 10%;
+  background: #2e3033;
+  overflow: hidden;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+.in_all_screen {
+  max-height: 100%;
+  width: 100%;
+  height: 95%;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease;
+}
+.modal_window:hover {
+  overflow: auto;
+}
+
+.modal_top_border {
+  transition: background-color 0.5s ease 0s;
+  width: 100%;
+  height: 40px;
+  background-color: #1b1b1d;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: inherit;
+  left: inherit;
+  z-index: 100;
+  width: inherit;
+  margin-bottom: 40px;
+}
+.modal_window:hover .modal_top_border {
+}
+.modal_window:hover .modal_body {
+}
+.modal_border_name {
+  color: white;
+  width: 100%;
+  padding: 0 0 0 15px;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.modal_buttons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal_but {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.modal_but img {
+  width: 30px;
+  height: 30px;
+}
+.modal_square img {
+  margin-top: 2px;
+  width: 25px;
+  height: 25px;
+}
+.modal_close {
+}
+.modal_body {
+  color: white;
+  font-size: 24px;
+  line-height: 26px;
+  padding-top: 40px;
+}
+.active::after {
+  content: "";
+  width: 80%;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  bottom: 2px;
+  left: 10%;
+}

@@ -1,0 +1,44 @@
+.emittingBoard {
+  border: 1px solid blue;
+  background-color: aqua;
+}
+.background-container {
+  display: none;
+}
+.desktopBg {
+  background: url("../images/colored/desk_bg1.png")
+    no-repeat center center / cover !important;
+}
+.task_bar {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(240, 0, 0, 0.7),
+    rgba(240, 0, 0, 0.9),
+    white,
+    rgba(240, 0, 0, 0.8),
+    rgba(240, 0, 0, 0.8),
+    white
+  );
+}
+.active_item {
+  border-bottom: 3px solid red;
+}
+.active::after {
+  background: red;
+}
+.nav_item {
+  border-bottom: 2px solid red;
+}
+.program_link {
+  border: 2px solid red;
+}
+.start_but_item::after {
+  background-color: red;
+}
+.modal_top_border {
+  background: red;
+}
+.set_style {
+  background: #3e3e3e;
+  border: 1px solid red;
+}

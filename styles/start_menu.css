@@ -1,0 +1,163 @@
+/*Start menu*/
+
+.start_button_cont {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.start_button_cont:hover::after {
+  content: "";
+  background-color: #000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease 0s;
+}
+.start_but {
+  width: 80%;
+  height: 80%;
+}
+.start_menu_content {
+  background-color: #333;
+  width: 25%;
+  height: 70%;
+  position: absolute;
+  bottom: -100%;
+  left: -100%;
+  display: grid;
+  opacity: 0;
+  grid-template-columns: 15% 85%;
+  transition: all 0.5s ease 0s;
+}
+.left {
+  opacity: 1;
+  bottom: 0;
+  left: 0;
+}
+.programs_names_section {
+  padding: 5px;
+  display: grid;
+  grid-template-rows: 12% 12% 12% 50% 12%;
+}
+.programs_item_name {
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.off {
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.off img {
+  width: 80%;
+  height: 90%;
+}
+.programs_item_name:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.6;
+}
+.programs_item_name:hover::before {
+  content: "Web Pages";
+  position: absolute;
+  top: -10%;
+  z-index: 50;
+  left: 70%;
+  width: 70px;
+  font-size: 12px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  background-color: silver;
+  opacity: 0.8;
+}
+.programs_item_name.apps:hover::before {
+  content: "Apps";
+}
+.programs_item_name.tasks:hover::before {
+  content: "Tasks";
+}
+.programs_item_name img {
+  width: 80%;
+  height: 90%;
+}
+.active_item {
+  border-bottom: 3px solid black;
+}
+
+.programs_section {
+  padding: 10px;
+  display: grid;
+  grid-gap: 3%;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fit, 48%);
+  overflow: auto;
+}
+.program_link {
+  border: 2px solid gray;
+  height: 130px;
+  background-color: silver;
+  position: relative;
+  overflow: hidden;
+}
+.progs_description {
+  width: 300%;
+  position: relative;
+}
+.pagesHref {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.pagesHref img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 10;
+}
+.page_cover_animate {
+  z-index: 20;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  font-weight: 800;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: all 0.7s ease;
+}
+.program_link:hover .page_cover_animate {
+  border-radius: 50%;
+  top: -100%;
+  left: -100%;
+}
