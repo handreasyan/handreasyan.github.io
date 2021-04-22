@@ -65,9 +65,9 @@ const pagesArr = [
   },
   {
     id: 8,
-    title: "HTML/CSS Template",
-    link: "https://handreasyan.github.io/HTML-CSS-Template2/",
-    src: "images/works/template2.png",
+    title: "SCSS Responsive Design",
+    link: "https://github.com/handreasyan/responsive_design_SCSS",
+    src: "images/works/scssrespose.png",
   },
   {
     id: 9,
@@ -80,6 +80,12 @@ const pagesArr = [
     title: "HTML/CSS Template",
     link: "https://github.com/handreasyan/HTML-CSS-Template",
     src: "images/works/template1.png",
+  },
+  {
+    id: 11,
+    title: "HTML/CSS Template",
+    link: "https://handreasyan.github.io/HTML-CSS-Template2/",
+    src: "images/works/template2.png",
   },
 ];
 const $pages = document.querySelector(".pages");
