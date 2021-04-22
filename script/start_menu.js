@@ -30,50 +30,49 @@ const pagesArr = [
   {
     id: 2,
     title: "Interior Design used HTML/CSS",
-    link: "https://github.com/handreasyan/Interior-Design",
+    link: "https://handreasyan.github.io/Interior-Design/",
     src: "images/works/interiorDesign.png",
   },
   {
     id: 3,
     title: "Grid Responsive Design",
-    link: "https://github.com/handreasyan/Grid-Responsive-Design",
+    link: "https://handreasyan.github.io/Grid-Responsive-Design/",
     src: "images/works/grid_design.png",
   },
   {
     id: 4,
     title: "Design Using SCSS technology",
-    link: "https://github.com/handreasyan/SCSS-Design",
+    link: "https://handreasyan.github.io/SCSS-Design/",
     src: "images/works/scss.png",
   },
   {
     id: 5,
     title: "Peace Design used HTML/CSS",
-    link: "https://github.com/handreasyan/Peace-Design",
+    link: "https://handreasyan.github.io/Peace-Design/",
     src: "images/works/peace.png",
   },
   {
     id: 6,
     title: "Side Menu with Wave Effect",
-    link: "https://github.com/handreasyan/Side-Menu-with-Wave-Effect",
+    link: "https://handreasyan.github.io/Side-Menu-with-Wave-Effect/",
     src: "images/works/hoverEffect.jpg",
   },
   {
     id: 7,
     title: "Multi-Page WebSite Kino Monster",
-    link: "https://github.com/handreasyan/KinoMonster-Template",
+    link: "https://handreasyan.github.io/KinoMonster-Template/",
     src: "images/works/kinomonster.png",
   },
   {
     id: 8,
     title: "HTML/CSS Template",
-    link:
-      "https://github.com/handreasyan/HTML-CSS-Template2/blob/main/index.html",
+    link: "https://handreasyan.github.io/HTML-CSS-Template2/",
     src: "images/works/template2.png",
   },
   {
     id: 9,
     title: "JavaScript Scrolling and Cursor Effects",
-    link: "https://github.com/handreasyan/JS-Scrolling-and-Cursor-Effects",
+    link: "https://handreasyan.github.io/JS-Scrolling-and-Cursor-Effects/",
     src: "images/works/effectCursor.png",
   },
   {
