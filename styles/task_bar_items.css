@@ -9,15 +9,6 @@
   cursor: pointer;
   z-index: 555;
 }
-/* .active.task_bar_item::after {
-  content: "";
-  background-color: black;
-  width: 80%;
-  height: 3px;
-  bottom: 2px;
-  position: absolute;
-  z-index: -1;
-} */
 .task_bar_item_image {
   width: 70%;
   height: 70%;

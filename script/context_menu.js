@@ -2,11 +2,7 @@ localStorage.setItem("datkTheme", "true");
 document.addEventListener("click", (event) => {
   document.ondragstart = () => false;
   document.onselectstart = () => false;
-  /*
-     event.preventDefault();
 
-    sa comentelem vorovhetev start_menu.js i mej erb vor linkei sarqum ira clicke ccher ashxatum , chem hishum te xiei esi grel u comenteluc heto voncor te vochi ban chi xaxtvum , ete yntacqum buger arajanan sra het mi ban kanenq ))
-  */
   if (
     !event.target.classList.contains("dontRemove") &&
     document.querySelector(".contextMenu")

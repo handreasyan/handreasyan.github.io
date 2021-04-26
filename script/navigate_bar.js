@@ -1,8 +1,3 @@
-// const turnOffBut = document.querySelector(".off");
-// turnOffBut.addEventListener("click", () => {
-//   close();
-// });
-
 const navigateBar = desktop.querySelector(".navigate_bar");
 Array.from(navigateBar.querySelectorAll(".to_change_img")).forEach((el, i) => {
   if (el.dataset.imgName !== "start_but") {
