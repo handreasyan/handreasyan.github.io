@@ -1,4 +1,3 @@
-// plugin modal created by me _ ashxatuma ankax urish fayleric , menak harkavora en elementi clicki jamanak vori hamar vor kuzenam pakvi modale et elementin tal => data-closeable="true", ev drsic arden karoxenq kanchel ira close() ev open() methodnere, openin poxancelov 2 arjeq,arajine  te inj petqa lcni bacvac patuhani mej ,ev erkrorde te ov kanchec iran
 
 function modalCreateFunc(options) {
   const modal = document.createElement("div");
