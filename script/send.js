@@ -1,4 +1,4 @@
-const itsPc = localStorage.getItem("pc");
+const itsPc = sessionStorage.getItem("pc");
 // when my site opens I will send an email about it
 let form = document.getElementById("my-form2");
 async function handleSubmit(event) {
@@ -12,7 +12,7 @@ async function handleSubmit(event) {
       Accept: "application/json",
     },
   }).then((response) => {
-    localStorage.setItem("pc", "true");
+    sessionStorage.setItem("pc", "true");
     form.remove();
   });
 }
