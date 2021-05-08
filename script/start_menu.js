@@ -204,10 +204,10 @@ const tasksArr = [
   },
   {
     id: 6,
-    title: "Algorithms, Data structures",
+    title: "Deep Clone an Object",
     link:
-      "https://github.com/handreasyan/Practical-Javascript-Tasks/blob/main/Brackets.html",
-    src: "images/works/tasks/brackets.jpg",
+      "https://github.com/handreasyan/Deep-Clone-an-Object/blob/main/init.js",
+    src: "images/works/tasks/objClone.png",
   },
   {
     id: 7,
@@ -299,6 +299,13 @@ const tasksArr = [
     link:
       "https://github.com/handreasyan/Practical-Javascript-Tasks/blob/main/Geometric%20Figures.html",
     src: "images/works/tasks/figures.png",
+  },
+  {
+    id: 20,
+    title: "Algorithms, Data structures",
+    link:
+      "https://github.com/handreasyan/Practical-Javascript-Tasks/blob/main/Brackets.html",
+    src: "images/works/tasks/brackets.jpg",
   },
 ];
 const $tasks = document.querySelector(".tasks");
